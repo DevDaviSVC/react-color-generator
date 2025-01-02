@@ -7,7 +7,7 @@ const Color = ({color}) => {
   }
 
   return (
-    <div className="color" style={{backgroundColor: hexColor, color: textColor}} onClick={handleClick}>
+    <div className="color" style={{backgroundColor: hexColor, color: textColor}} onClick={handleClick} >
       <p>{color.weight}%</p>
       <p>{hexColor}</p>
     </div>
